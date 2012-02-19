@@ -1,0 +1,21 @@
+Packages that i maintain for AUR (Arch User Repository)
+
+- Keyboard Status Monitor (key-mon)
+http://code.google.com/p/key-mon/
+Developer: Scott Kirkwood 
+Licence: Apache 2.0
+Translations: -
+
+- luckyBackup
+http://luckybackup.sourceforge.net/
+Developer: Loukas Avgeriou
+Licence: GPLv3
+Translations: https://www.transifex.net/projects/p/luckybackup/
+
+- SocNetV
+http://socnetv.sourceforge.net/
+Developer: Dimitris Kalamaras
+Licence: GPLv3
+Translations: http://socnetv.sourceforge.net/translations.html
+
+
