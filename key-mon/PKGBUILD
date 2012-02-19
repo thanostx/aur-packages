@@ -1,0 +1,31 @@
+#Contributor: Nuno Araujo <nuno.araujo at russo79.com>
+#Contributor: Guan Qing <neokuno@gmail.com>
+#Maintainer: Tom Tryfonidis <tomtryf [at] gmail [dot] com>
+
+pkgname=key-mon
+pkgver=1.9
+pkgrel=1
+pkgdesc="A small utility to display your current keyboard and mouse status. Useful for screencasts."
+arch=('any')
+url="http://code.google.com/p/key-mon/"
+depends=('pygtk' 'dbus-glib' 'dbus-python' )
+makedepends=('python2-distribute' 'python-xlib')
+install=${pkgname}.install
+license=('Apache 2.0')
+source=("http://key-mon.googlecode.com/files/${pkgname}-${pkgver}.tar.gz")
+
+package() {
+  cd "$srcdir/${pkgname}-${pkgver}"
+
+  python2 setup.py install --root=${pkgdir} || return 1
+  install -m 755 ${srcdir}/${pkgname}-${pkgver}/icons/key-mon.desktop -D ${pkgdir}/usr/share/applications/key-mon.desktop
+  install -m 755 ${srcdir}/${pkgname}-${pkgver}/icons/key-mon.xpm -D ${pkgdir}/usr/share/pixmaps/key-mon.xpm
+}
+
+md5sums=('7aa8e9f83c12140b62d29432963e9a9d')
+
+
+
+
+
+
