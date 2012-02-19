@@ -3,7 +3,7 @@
 
 pkgname=socnetv
 pkgver=0.90
-pkgrel=1
+pkgrel=2
 pkgdesc="Social Networks Analysis and Visualisation"
 arch=('any')
 url="http://socnetv.sourceforge.net/"

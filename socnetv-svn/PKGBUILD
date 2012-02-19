@@ -2,7 +2,7 @@
 #Maintainer: Tom Tryfonidis <tomtryf [at] gmail [dot] com>
 
 pkgname=socnetv-svn
-pkgver=610
+pkgver=612
 pkgrel=1
 pkgdesc="Social Networks Analysis and Visualisation (SVN version)"
 arch=('any')
