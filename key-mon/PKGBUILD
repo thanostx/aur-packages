@@ -3,7 +3,7 @@
 #Maintainer: Tom Tryfonidis <tomtryf [at] gmail [dot] com>
 
 pkgname=key-mon
-pkgver=1.9
+pkgver=1.11
 pkgrel=1
 pkgdesc="A small utility to display your current keyboard and mouse status. Useful for screencasts."
 arch=('any')
@@ -22,7 +22,7 @@ package() {
   install -m 755 ${srcdir}/${pkgname}-${pkgver}/icons/key-mon.xpm -D ${pkgdir}/usr/share/pixmaps/key-mon.xpm
 }
 
-md5sums=('7aa8e9f83c12140b62d29432963e9a9d')
+md5sums=('b629b797a05cb672d12c4c02e7f3e688')
 
 
 
